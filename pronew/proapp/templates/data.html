@@ -1,0 +1,15 @@
+<table>
+    <tr>
+        <th>username</th>
+         <th>password</th>
+         <th>phone</th>
+
+    </tr>
+    {% for i in data %}
+    <tr>
+        <td>{{i.username}}</td>
+        <td>{{i.password}}</td>
+        <td>{{i.phone}}</td>
+    </tr>
+    {% endfor %}
+</table>
